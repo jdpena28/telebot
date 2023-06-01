@@ -13,6 +13,7 @@
     "format": "prettier --write ./src"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.195",
     "@types/node": "^18.15.11",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.57.0",
@@ -26,6 +27,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "prettier": "^2.5.1",
     "rimraf": "^4.4.1",
+    "supabase": "^1.64.8",
     "tsup": "^6.7.0",
     "tsx": "^3.12.6",
     "typescript": "^5.0.2"
@@ -44,8 +46,10 @@
   },
   "homepage": "https://github.com/jdpena28/telebot#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^2.24.0",
     "date-fns": "^2.30.0",
     "dotenv": "^16.0.3",
-    "grammy": "^1.16.0"
+    "grammy": "^1.16.0",
+    "lodash": "^4.17.21"
   }
 }
